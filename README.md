@@ -186,15 +186,15 @@ VITE_WS_TIMEOUT=30000
 ### Running the Application
 
 ```bash
-# Terminal 1: Start the backend
+# Start the backend
 cd backend
 npm run dev
 
-# Terminal 2: Start the frontend
+# Start the frontend
 cd frontend
 npm run dev
 
-# Terminal 3: Deploy smart contracts (if needed)
+# Deploy smart contracts 
 cd smart-contract
 npx hardhat run scripts/deploy.js --network somnia-testnet
 ```
