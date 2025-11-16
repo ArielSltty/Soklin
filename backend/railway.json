@@ -1,0 +1,27 @@
+{
+  "build": {
+    "builder": "NIXPACKS",
+    "nixpacksConfig": {
+      "phases": {
+        "setup": {
+          "nixPkgs": ["nodejs", "npm"]
+        }
+      },
+      "startCmd": "npm start"
+    }
+  },
+  "deploy": {
+    "buildCommand": "npm install && npm run build",
+    "startCommand": "npm start",
+    "ignoredFiles": [
+      "node_modules",
+      "dist",
+      "logs",
+      "frontend",
+      "smart-contract",
+      "ml-models",
+      "notebooks",
+      "shell"
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "deploy": {
+    "buildCommand": "npm run build",
+    "startCommand": "npm run start",
+    "ignoredFiles": [
+      "node_modules",
+      "dist",
+      "logs",
+      "README.md",
+      "FIXES_SUMMARY.md",
+      "ide.txt",
+      "info.txt"
+    ],
+    "redeployOnChange": true
+  },
+  "env": {
+    "SOMNIA_RPC_URL": {
+      "description": "Somnia RPC URL for blockchain connection",
+      "required": true
+    },
+    "SOMNIA_CHAIN_ID": {
+      "description": "Somnia chain ID",
+      "default": "50312"
+    },
+    "PRIVATE_KEY": {
+      "description": "Private key for wallet operations",
+      "required": true,
+      "mask": true
+    },
+    "CONTRACT_ADDRESS": {
+      "description": "Deployed smart contract address",
+      "required": true
+    },
+    "MODEL_PATH": {
+      "description": "Path to ML model file",
+      "default": "../ml-models/wallet_fraud_model.onnx"
+    },
+    "SCALER_PATH": {
+      "description": "Path to scaler file",
+      "default": "../ml-models/scaler.pkl"
+    },
+    "FEATURES_PATH": {
+      "description": "Path to features file",
+      "default": "../ml-models/model_features.json"
+    },
+    "BLACKLIST_PATH": {
+      "description": "Path to blacklist file",
+      "default": "../ml-models/blacklist.json"
+    },
+    "NODE_ENV": {
+      "description": "Node environment",
+      "default": "production"
+    },
+    "PORT": {
+      "description": "Port for the server",
+      "default": "8000"
+    }
+  }
+}

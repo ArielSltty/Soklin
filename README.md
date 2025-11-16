@@ -131,7 +131,7 @@ graph TB
 
 ### Prerequisites
 
-- Node.js 18+ 
+- Node.js 18+
 - npm or yarn
 - Somnia Testnet account with tokens
 - Git
@@ -186,18 +186,39 @@ VITE_WS_TIMEOUT=30000
 ### Running the Application
 
 ```bash
-# Start the backend
+# Terminal 1: Start the backend
 cd backend
 npm run dev
 
-# Start the frontend  
+# Terminal 2: Start the frontend
 cd frontend
 npm run dev
 
-# Deploy smart contracts 
+# Terminal 3: Deploy smart contracts (if needed)
 cd smart-contract
 npx hardhat run scripts/deploy.js --network somnia-testnet
 ```
+
+## ☁️ Deployment
+
+Soklin is designed for cloud deployment with the frontend and backend deployed separately:
+
+### Frontend (Vercel)
+- Deploy the `frontend` directory to Vercel
+- Set environment variables: `VITE_API_BASE` (your backend URL), `VITE_WS_URL` (your backend WebSocket URL)
+- See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed instructions
+
+### Backend (Railway)
+- Deploy the `backend` directory to Railway
+- Set environment variables: `SOMNIA_RPC_URL`, `PRIVATE_KEY`, `CONTRACT_ADDRESS`, etc.
+- See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed instructions
+
+### Complete Deployment Guide
+Detailed deployment instructions for both platforms can be found in [DEPLOYMENT.md](DEPLOYMENT.md). This includes:
+- Step-by-step deployment processes
+- Environment variable configuration
+- Troubleshooting tips
+- Production best practices
 
 ## 🎯 Core Features
 
@@ -274,6 +295,11 @@ For support, questions, or to learn more about the project:
 - Check the [documentation](./docs/) files
 
 ## 📚 Documentation
+
+For detailed technical documentation and implementation notes, please refer to the following files in the repository:
+- `FIXES_SUMMARY.md` - Detailed fixes and improvements made during development
+- `ide.txt` - Development environment setup and configuration notes
+- `info.txt` - Comprehensive information about Somnia Data Streams integration
 
 ## 🏆 Hackathon Submission Details
 
