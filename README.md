@@ -110,11 +110,11 @@ graph TB
 | Recall | 82% |
 
 ### ML Training Visualization
-![Training Metrics](notebooks/assets/training-metrics.png)
+![Training Metrics](notebooks/assets/confusion_matrix.png)
 *Training metrics showing model performance over epochs*
 
 ### Feature Importance
-![Feature Importance](notebooks/assets/feature-importance.png)
+![Feature Importance](notebooks/assets/feature_importance.png)
 *Key features used for wallet reputation scoring*
 
 ### Dashboard Interface
