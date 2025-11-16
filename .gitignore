@@ -1,0 +1,123 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Production builds
+dist/
+build/
+*.min.js
+*.min.css
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+.directory
+*.nfs
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Coverage directory used by tools like istanbul
+coverage/
+.nyc_output/
+
+# Temporary files
+.temp/
+tmp/
+*.tmp
+
+# Backend
+backend/dist/
+backend/logs/
+
+# Frontend
+frontend/dist/
+frontend/build/
+
+# Smart Contract
+smart-contract/artifacts/
+smart-contract/cache/
+
+# ML Models - but we want to keep the models for the hackathon
+# !ml-models/
+
+# IDE and editor files
+.vs/
+*.sublime-project
+*.sublime-workspace
+
+# Test files
+cypress/videos/
+cypress/screenshots/
+
+# Sensitive files
+*.key
+*.pem
+*.crt
+*.cert
+
+# Documentation
+docs/_build/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+node_modules/
+jspm_packages/
+
+# TypeScript
+*.tsbuildinfo
+.next/
+.nuxt/
+dist/
+
+# Python (for ml models)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+.venv/
+.env
+.PyCharmCode
+.pytest_cache/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Local development
+.env.local
+.env.*.local
+
+# Documentation files to exclude
+FIXES_SUMMARY.md
+ide.txt
+info.txt

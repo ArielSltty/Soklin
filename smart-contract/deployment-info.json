@@ -1,0 +1,10 @@
+{
+  "network": "Somnia Testnet",
+  "chainId": 50312,
+  "contract": "WalletFlagger",
+  "address": "0x2aA85692CD4bE94fC976017Ee86Aa077838155A5",
+  "deployer": "0xC188d7E186682502B0177bEbE427828e8F5daf50",
+  "transactionHash": "0x88dd0c37fc5fc6aaec625bc587cd0c0aa8a9fa14305c5ced03ad7504581cba34",
+  "timestamp": "2025-11-10T13:38:10.886Z",
+  "explorer": "https://shannon-explorer.somnia.network/address/0x2aA85692CD4bE94fC976017Ee86Aa077838155A5"
+}

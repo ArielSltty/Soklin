@@ -1,0 +1,48 @@
+{
+  "model_name": "EthereumWalletFraudDetector",
+  "version": "1.0",
+  "description": "Random Forest model for Ethereum wallet fraud detection",
+  "author": "Soklin Project",
+  "input_features": 30,
+  "output_classes": 2,
+  "performance": {
+    "roc_auc": 1.0,
+    "accuracy": 1.0
+  },
+  "feature_names": [
+    "Unnamed: 0",
+    " ERC20 most sent token type",
+    "Time Diff between first and last (Mins)",
+    " ERC20_most_rec_token_type",
+    " Total ERC20 tnxs",
+    " ERC20 total Ether received",
+    " ERC20 uniq rec contract addr",
+    "Avg min between received tnx",
+    "total ether received",
+    " ERC20 uniq rec addr",
+    " ERC20 avg val rec",
+    "max value received ",
+    "total transactions (including tnx to create contract",
+    "Received Tnx",
+    "Unique Received From Addresses",
+    "Index",
+    "avg val received",
+    " ERC20 min val rec",
+    "total ether balance",
+    "Address",
+    "Sent tnx",
+    "min val sent",
+    " ERC20 uniq sent token name",
+    " ERC20 total ether sent",
+    " ERC20 uniq sent addr",
+    "total Ether sent",
+    "max val sent",
+    "Unique Sent To Addresses",
+    "avg val sent",
+    "min value received"
+  ],
+  "preprocessing": {
+    "scaler": "StandardScaler",
+    "imputer": "MedianImputer"
+  }
+}
