@@ -186,15 +186,15 @@ VITE_WS_TIMEOUT=30000
 ### Running the Application
 
 ```bash
-# Terminal 1: Start the backend
+# Start the backend
 cd backend
 npm run dev
 
-# Terminal 2: Start the frontend  
+# Start the frontend  
 cd frontend
 npm run dev
 
-# Terminal 3: Deploy smart contracts (if needed)
+# Deploy smart contracts 
 cd smart-contract
 npx hardhat run scripts/deploy.js --network somnia-testnet
 ```
@@ -274,11 +274,6 @@ For support, questions, or to learn more about the project:
 - Check the [documentation](./docs/) files
 
 ## 📚 Documentation
-
-For detailed technical documentation and implementation notes, please refer to the following files in the repository:
-- `FIXES_SUMMARY.md` - Detailed fixes and improvements made during development
-- `ide.txt` - Development environment setup and configuration notes
-- `info.txt` - Comprehensive information about Somnia Data Streams integration
 
 ## 🏆 Hackathon Submission Details
 
