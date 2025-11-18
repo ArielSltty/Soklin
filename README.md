@@ -8,6 +8,8 @@
 [![ML Powered](https://img.shields.io/badge/ML-Powered-orange?style=for-the-badge)](https://somnia.network)
 
 </div>
+### Soklin
+![Soklin Dashboard](notebooks/assets/screen3.png)
 
 ## 🚀 Project Overview
 
@@ -118,11 +120,11 @@ graph TB
 *Key features used for wallet reputation scoring*
 
 ### Dashboard Interface
-![Soklin Dashboard](notebooks/assets/dashboard-view.png)
+![Soklin Dashboard](notebooks/assets/screen1.png)
 *Real-time monitoring dashboard with risk analysis*
 
 ### Risk Analysis
-![Risk Analysis](notebooks/assets/risk-analysis.png)
+![Risk Analysis](notebooks/assets/screen2.png)
 *Advanced transaction pattern analysis and visualization*
 
 </div>
@@ -250,14 +252,6 @@ Detailed breakdown of transaction history with risk indicators and pattern analy
 
 ### System Endpoints
 - `GET /api/system/health` - Health check
-
-## 📈 Usage Examples
-
-### Dashboard Interface
-![Soklin Dashboard](notebooks/assets/dashboard-view.png)
-
-### Risk Analysis
-![Risk Analysis](notebooks/assets/risk-analysis.png)
 
 ## 🏆 Hackathon Impact
 
