@@ -8,8 +8,14 @@
 [![ML Powered](https://img.shields.io/badge/ML-Powered-orange?style=for-the-badge)](https://somnia.network)
 
 </div>
-### Soklin
-![Soklin Dashboard](notebooks/assets/screen3.png)
+
+### 
+
+<p align="center">
+  <img src="notebooks/assets/screen3.png" alt="Training Metrics" />
+</p>
+
+<p align="center"><i>Soklin</i></p>
 
 ## 🚀 Project Overview
 
