@@ -320,7 +320,7 @@ Soklin was created specifically for the **Somnia Data Streams Mini Hackathon** w
 
 <div align="center">
 
-**Soklin** - Securing the Blockchain Future with Real-time Intelligence
+**Soklin** - Securing the Blockchain Future with Real-time Intelligence.
 
 [![Somnia](https://img.shields.io/badge/Made%20For-Somnia%20Testnet-7B68EE?style=for-the-badge)](https://somnianetwork.io)
 
